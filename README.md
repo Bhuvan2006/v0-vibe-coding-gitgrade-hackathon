@@ -1,6 +1,7 @@
 # GitGrade - AI-Powered GitHub Repository Evaluator
 
 GitGrade is an intelligent repository analysis tool that evaluates GitHub projects using AI and provides actionable feedback to help developers improve their code quality, documentation, and development practices.
+Solution Website deployed: `https://v0-vibe-coding-gitgrade-hackathon.vercel.app/`
 
 ## Overview
 
