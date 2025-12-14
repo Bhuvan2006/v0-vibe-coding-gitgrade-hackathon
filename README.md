@@ -1,6 +1,3 @@
-Here is the strictly professional version without emojis, formatted for immediate use.
-
-````markdown
 # GitGrade
 
 **AI-Powered GitHub Repository Evaluator**
@@ -38,7 +35,7 @@ GitGrade analyzes public GitHub repositories to generate comprehensive reports. 
 
 The system follows a streamlined flow to ensure fast and accurate analysis:
 
-```mermaid
+
 graph TD
     A[User Input URL] --> B[GitHub REST API]
     B -->|Raw Metadata & File Structure| C[AI Analysis Engine]
@@ -47,7 +44,7 @@ graph TD
     D -- No --> F[Fallback Rule-Based Scoring]
     E --> G[Results Dashboard]
     F --> G
-````
+
 
 1.  **Data Collection:** Fetches repository metadata, file structure, and commit history via GitHub API.
 2.  **AI Processing:** Structured data is sent to GPT-4o via Vercel AI Gateway to evaluate quality dimensions.
@@ -134,5 +131,4 @@ GitGrade assesses repositories based on the following weighted criteria:
 This project is licensed under the MIT License.
 
 -----
-```
-```
+
